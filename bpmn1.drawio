@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T21:45:28.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="BFR0GRGvKIOJMim5laoS" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-30T21:46:41.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="9xQbUlSJNTlCmn2Q_faj" version="15.0.3" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
     <mxGraphModel dx="1995" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -100,6 +100,9 @@
         <mxCell id="feLGeACvyhJwC_AKLF74-64" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="feLGeACvyhJwC_AKLF74-3">
           <mxGeometry x="1130" y="135" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="feLGeACvyhJwC_AKLF74-68" value="Есть" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="feLGeACvyhJwC_AKLF74-3">
+          <mxGeometry x="1180" y="165" width="50" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="feLGeACvyhJwC_AKLF74-4" value="Клиентское приложение" style="swimlane;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="-610" y="110" width="1340" height="350" as="geometry" />
         </mxCell>
@@ -172,6 +175,19 @@
         </mxCell>
         <mxCell id="feLGeACvyhJwC_AKLF74-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="feLGeACvyhJwC_AKLF74-52" target="feLGeACvyhJwC_AKLF74-57">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feLGeACvyhJwC_AKLF74-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="feLGeACvyhJwC_AKLF74-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="feLGeACvyhJwC_AKLF74-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="feLGeACvyhJwC_AKLF74-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="feLGeACvyhJwC_AKLF74-69" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="920" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
