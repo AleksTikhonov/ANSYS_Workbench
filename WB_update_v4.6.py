@@ -78,7 +78,7 @@ def export_report():
     ExportReport(FilePath=wdpath + slash + 'main_results' + slash + 'report.html')
     for root, dirs, files in os.walk(projecinsidepath):
         for file in files:
-            if file.startswith('Post') and file.endswith('.png'):
+            if file.startswith('Post') and file.endswith('.png') or file.endswith('.descr'):
                 shutil.copy(os.path.join(root, file), os.path.join(wdpath + slash + 'pictures', file))
     try:
         shutil.copy(wdpath + slash + 'main_results' + slash + 'report_images' + slash + 'ProjectSchematic.png', wdpath + slash + 'pictures' + slash + 'model_overview.png')
